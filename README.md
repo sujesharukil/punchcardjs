@@ -1,4 +1,5 @@
 [![Stories in Ready](https://badge.waffle.io/sujesharukil/punchcardjs.png?label=ready&title=Ready)](https://waffle.io/sujesharukil/punchcardjs)
+[![Stories in Progress](https://badge.waffle.io/sujesharukil/punchcardjs.png?label=in%20progress&title=In%20Progress)](https://waffle.io/sujesharukil/punchcardjs)
 ## Synopsis
 
 PunchcardJS is a JavaScript library that will make it easy to switch between AJAX calls and mock ajax data. It is driven by simple configuration such that, a flip of switch is all that will be required to change between mock data calls and making actual ajax calls without having to modify your caller code.
