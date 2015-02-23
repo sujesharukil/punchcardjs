@@ -1,7 +1,7 @@
 import * as utils from 'utils';
 
 const matchRest = /[\-_\s]+([\w\W])?/g,
-    matchFirst = /^([A-Z])/;
+      matchFirst = /^([A-Z])/;
 
 function matchAndToUpperCase(match) {
     var character = match[1];
@@ -14,8 +14,8 @@ function matchAndToLowerCase(character) {
 
 function camelize(string) {
     return string
-        .replace(matchRest, _matchAndToUpperCase)
-        .replace(matchFirst, _matchAndToLowerCase);
+        .replace(matchRest, matchAndToUpperCase)
+        .replace(matchFirst, matchAndToLowerCase);
 
 }
 
